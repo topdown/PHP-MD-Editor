@@ -7,14 +7,14 @@ DO NOT USE THIS ON A PUBLIC SERVER
 - [jQuery](http://jquery.com/ "jQuery")
 
 **Make sure to chmod files directory to 777**
-1. chmod _files/_ to **777**
-2. run index.php on a localhost with a basic LAMP stack
-3. Name your file (no extension)
-4. Use the editor for creating content
-5. Submit
-6. Copy the file from _files/_ to your project
+- chmod _files/_ to **777**
+- run index.php on a localhost with a basic LAMP stack
+- Name your file (no extension)
+- Use the editor for creating content
+- Submit
+- Copy the file from _files/_ to your project
 
-****Submit message
+**Submit message**
 ![Submit message](http://screenshots/message.png "Submit message")
 
 You can also reload files from the _files/_ directory to edit them.
