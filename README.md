@@ -1,8 +1,8 @@
 DO NOT USE THIS ON A PUBLIC SERVER
 ==================
-### This was more for fun than actual usefulness
+### This was more for fun than actual usefulness!
 
-##### This script uses the following resources
+##### This script uses the following resources.
 - markItUp! pack 1.1.12  [MarkItUp Site](http://markitup.jaysalvat.com/downloads/ "MarkItUp")
 - Basic Markdown set _Can be found on the page above_
 - [jQuery](http://jquery.com/ "jQuery")
