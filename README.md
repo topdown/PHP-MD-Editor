@@ -1,5 +1,6 @@
 DO NOT USE THIS ON A PUBLIC SERVER
 ==================
+### This was more for fun than actual usefulness
 
 ##### This script uses the following resources
 - markItUp! pack 1.1.12  [MarkItUp Site](http://markitup.jaysalvat.com/downloads/ "MarkItUp")
