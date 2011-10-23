@@ -57,21 +57,16 @@ if ($handle = opendir($files_dir))
 if (isset($_POST['get_file']) && !empty($_POST['file']))
 {
 	$file_name = $_POST['file'];
-
-	$content = file_get_contents($files_dir . $file_name);
-
-	$file = explode('.', $file_name);
-
-	$file = $file[0];
+	$content   = file_get_contents($files_dir . $file_name);
+	$file      = explode('.', $file_name);
+	$file      = $file[0];
 }
 elseif (isset($_POST['submit']) && !empty($_POST['file_name']))
 {
 	$file_name = trim($_POST['file_name']);
-
-	$file = explode('.', $file_name);
-	$file = $file[0];
-
-	$content = trim($_POST['content']);
+	$file      = explode('.', $file_name);
+	$file      = $file[0];
+	$content   = trim($_POST['content']);
 }
 else
 {
@@ -233,12 +228,16 @@ elseif (isset($_POST['submit']) && empty($file))
 		unset($file);
 		?>
 
-		<p><input type="submit" name="get_file" id="get_file" value="Get File" /></p>
+		<p>
+			<input type="submit" name="get_file" id="get_file" value="Get File" />
+		</p>
 
 	</form>
 
 	<form action="" method="post">
-		<p><input type="submit" value="Refresh Page | Reset" /></p>
+		<p>
+			<input type="submit" value="Refresh Page | Reset" />
+		</p>
 	</form>
 </div>
 </body>
