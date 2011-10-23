@@ -10,6 +10,7 @@ DO NOT USE THIS ON A PUBLIC SERVER
 **Make sure to chmod files directory to 777**
 
 - chmod _files/_ to **777**
+- Comment out the die() at the top of the index.php
 - run index.php on a localhost with a basic LAMP stack
 - Name your file (no extension)
 - Use the editor for creating content

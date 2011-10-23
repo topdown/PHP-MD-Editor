@@ -1,21 +1,20 @@
-<?php //die('DO NOT USE THIS ON A LIVE PUBLIC SERVER!');
+<?php die('DO NOT USE THIS ON A LIVE PUBLIC SERVER!');
 
 /**
- * This file is part of the ProBMS package.
+ * PHP script for creating README.md type files
  *
  * PHP version 5
  *
- * LICENSE: This is PRIVATE source code developed for ProBMS.com.
- * It is in no way transferable and copy rights belong to Jeff Behnke @ Valid-Webs.com
+ * LICENSE: GPL
  *
  * Created 10/22/11, 5:12 PM
  *
- * @category   ProBMS
+ * @category
  * @package
  * @subpackage
  * @author     Jeff Behnke <code@valid-webs.com>
  * @copyright  (c) 2011 Valid-Webs.com
- * @license    Premium
+ * @license    GPL
  * @version    0.0.1
  */
 
